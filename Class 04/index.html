@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Array in js</h1>
+
+    <script>
+      //   const username = "sarim";
+      //   console.log(username);
+      //   username = "mirza";
+      //   console.log(username);
+
+      // Functions
+      function sum(num1, num2) {
+        var sum = num1 + num2;
+        console.log(sum);
+      }
+
+      // var num1 = prompt("Enter number 1");
+      // var num2 = prompt("Enter number 2");
+
+      // sum(Number(num1), Number(num2));
+
+      var usernames = ["sarim", "habib", null, undefined, "undefined", false];
+      // console.log(usernames[0]);
+      // console.log(usernames[1]);
+      // console.log(usernames[2]);
+
+      // keyword, conditional statement, block of statement
+      for (var i = 0; i < usernames.length; i++) {
+        console.log(usernames[i]);
+      }
+
+      // console.log("hi");
+      // for (var i = 1; i <= 10; i++) {
+      //   console.log("hi", i);
+      // }
+      // console.log("after");
+
+      const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+      for (var i = 0; i < numbers.length; i++) {
+        console.log(numbers[i]);
+
+        if (numbers[i] == 5) {
+          break;
+        }
+      }
+    </script>
+  </body>
+</html>
