@@ -19,6 +19,7 @@ function App() {
         </Route>
         <Route path="contact" element={<Contact />} />
         <Route path="about" element={<Aboutus />} />
+        <Route path="*" element={<h1>404 Not Found</h1>} />
       </Routes>
     </>
   );
